@@ -184,9 +184,12 @@ color:inherit ;}
     margin:20px auto;}
 
   figcaption {
-    font: 11px;
-    color: #9d9d9d;
+    font-size: 14px;
+    color: #919191;
   }
+
+  figcaption a {list-style: none; color:inherit}
+  figcaption a:hover {color:#8e090e}
 
   #c1,#c2,#c3,#c4,#c5,#c6,#c7,#c8,#c9,#c10,#c11,#c12,#c13,#c14, #c15
   {scroll-margin-top: 150px;}
@@ -303,11 +306,6 @@ color:inherit ;}
       }
 
   }
-  
-  /* Estilos para el encabezado y el texto del documento */
-
-
-  
   
   .container {
     margin: 0 auto;
