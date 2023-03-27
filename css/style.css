@@ -325,9 +325,8 @@ color:inherit ;}
     width: 100%;
     position: fixed;
     z-index: 5;
-    backdrop-filter: blur(10px); /* Desenfoque */
-
-
+    -webkit-backdrop-filter: blur(10px); /* Desenfoque */
+    backdrop-filter: blur(10px);
   }
 
   header img{
