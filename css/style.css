@@ -2,10 +2,13 @@
     box-sizing: border-box;
   
   }
-
   body {
+    font-family: Arial, sans-serif; /* Tipografía */
+    font-size: 16px;
+    margin: 0;
     background-color: #d8d8d8;
   }
+
   html {
     scroll-behavior: smooth;
   }
@@ -303,17 +306,7 @@ color:inherit ;}
   
   /* Estilos para el encabezado y el texto del documento */
 
-  body {
-    font-family: Arial, sans-serif; /* Tipografía */
-    font-size: 16px;
-    margin: 0;
-  }
 
-  /*//////////////////*/
-  
-  
-  
-  /*//////////////////*/
   
   
   .container {
@@ -326,7 +319,7 @@ color:inherit ;}
     align-items: center;
   }
   header{
-    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: -1px 10px 10px rgba(0, 0, 0, 0.2);
     border-bottom: 2px solid #d14343;
     background-color: #898989d6;
     color: #fff;
