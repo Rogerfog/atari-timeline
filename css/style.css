@@ -82,15 +82,9 @@
 
  
 
-.next-btn {
-    color: #d14343;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-}
-
-.prev-btn {
+.next-btn,
+.prev-btn,
+.btn-top {
   color: #d14343;
   font-size: 30px;
   display: flex;
@@ -99,14 +93,17 @@
 }
 
 .next-btn a,
-.prev-btn a {text-decoration: none;
-color:inherit ;}
+.prev-btn a {
+  text-decoration: none;
+  color:inherit ;
+}
 
 .next-btn a:visited,
 .prev-btn a:visited {color: inherit;}
 
 .next-btn a:hover,
-.prev-btn a:hover {color:#8e090e;}
+.prev-btn a:hover,
+.btn-top:hover {color:#8e090e;}
 
 .primera .prev-btn {opacity: 0;} 
 .ultima .next-btn {opacity: 0;}
@@ -359,8 +356,20 @@ color:inherit ;}
     color: #8e090e;
   }
   
-footer p {color:#e7e7e7}
+  footer p {color:#e7e7e7}
 
 
 
+  /*TOP BTN*/
+  .btn-top {
+    display: none; /* oculta el botón por defecto */
+    position: fixed; /* fija el botón en una posición fija */
+    bottom: 20px; /* distancia desde el borde inferior de la pantalla */
+    right: 20px; /* distancia desde el borde derecho de la pantalla */
+    z-index: 99; /* establece la posición en la que aparece el botón */
+  }
+  
+  .btn-top.show {
+    display: block; /* muestra el botón cuando se hace scroll hacia abajo */
+  }
   

@@ -16,9 +16,9 @@
             <h1>Atari Timeline (1971 - 2020)</h1>
         </div>
     </header>
-
     <div class="separador" id="top"></div>
     <div class="top"></div>
+    <a href="#" class="btn-top"><i class="fa-solid fa-up-to-line"></i></a>
 	<div class="timeline">
 		<div class="timeline-card primera" id="c1">
             <div class="nav-card">
@@ -352,5 +352,13 @@
             <p>© 2023 - Disseny web de <strong>Roger Fogueras Bayarri</strong>, disponible a través del repositori <a href="https://github.com/Rogerfog/atari-timeline" target="_blank">github</a>.</p>
         </div>
       </footer>
+
+      <script>
+        window.addEventListener("scroll", function() {
+            var btnTop = document.querySelector(".btn-top");
+            btnTop.classList.toggle("show", window.scrollY > 500);
+        });
+      </script>
+    
 </body>
 </html>
