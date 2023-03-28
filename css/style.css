@@ -229,14 +229,11 @@ figcaption a {
 
 figcaption a:hover {color: #8e090e;}
 
-/* Estilos para la posición del scroll */
+/* Estils er la posició del scroll */
 #c1, #c2, #c3, #c4, #c5, #c6, #c7, #c8, #c9, #c10, #c11, #c12, #c13, #c14, #c15 {
   scroll-margin-top: 150px;
 }
 
-  
-
-  
 /* FOOTER */
 footer {
   background-color: #898989d6;
@@ -266,14 +263,13 @@ footer a:hover {color: #8e090e;}
 
 .btn-top.show {display: block;}
 
-/* Estilos para dispositivos con ancho de pantalla menor o igual a 980px */
 @media screen and (max-width: 980px) {
 
   #c1, #c2, #c3, #c4, #c5, #c6, #c7, #c8, #c9, #c10, #c11, #c12, #c13, #c14, #c15 {
-    scroll-margin-top: 200px;
+    scroll-margin-top: 240px;
   }
 
-  /* Estilos para la disposición de la navegación */
+  /* Estils per la disposició de la navegació */
   .nav-card {
     display: flex;
     flex-direction: row;
@@ -283,7 +279,7 @@ footer a:hover {color: #8e090e;}
     top: -80px;
   }
 
-  /* Estilos para el botón de siguiente */
+  /* Estils pel botó de següent */
   .next-btn {
     font-size: 30px;
     display: flex;
@@ -291,7 +287,7 @@ footer a:hover {color: #8e090e;}
     margin: 10px;
   }
 
-  /* Estilos para el botón de anterior */
+  /* Estils pel botó d'anterior */
   .prev-btn {
     font-size: 30px;
     display: flex;
@@ -299,17 +295,20 @@ footer a:hover {color: #8e090e;}
     margin: 10px;
   }
 
-  /* Estilos para la posición de las tarjetas */
+  /* Estils per la posició de les targetes */
   .timeline-card {margin: 200px auto;}
 
-  /* Estilos para la posición de la primera tarjeta */
+  /* Estils per la posició de la primera targeta */
   .timeline-card.primera {margin-top: 100px;}
 
-  /* Estilos para la posición de la última tarjeta */
+  /* Estils per la posició de l'última targeta */
   .timeline-card.ultima {margin-bottom: 100px;}
 
 }
 
+@media screen and (max-width: 880px) {
+    .timeline-card {margin: 200px 20px;}
+}
   
 @media screen and (max-width: 767px) {
   .timeline:before {
@@ -323,15 +322,8 @@ footer a:hover {color: #8e090e;}
     .column-content {flex-direction: column;}
 }
 
-@media screen and (max-width: 880px) {
-    .timeline-card {margin: 200px 20px;}
-    header h1 {
-      font-size: 23px;
-      transition: all 0.5s ease;
-    }
-}
-
 @media screen and (max-width: 530px) {
+
   .timeline-content p {margin: 15px 0px;}
 
   .column-content .column{padding: 0;}
